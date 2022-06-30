@@ -5,9 +5,9 @@ import fs from 'fs'
 
 
 global.owner = [
-  ['5492235514566', '👑 Mystic - Creador 👑', true],
-  ['5492235671608', '🤖 Mystic - Bot 🤖', true],
-  ['5492235514566']
+  ['5492235671608', '👑 Stivi - Creador 👑', true],
+  ['5492235514566', '🤖 Stivi - Bot 🤖', true],
+  ['5492235671608']
 ] // Cambia los numeros que quieras
 global.mods = [] 
 global.prems = [] 
@@ -65,10 +65,10 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.author = '★𝚂𝚝𝚒𝚟𝚒 - 𝙱𝚘𝚝★'
 
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.wm = '★𝚂𝚝𝚒𝚟𝚒 - 𝙱𝚘𝚝★'
+global.igfg = '★𝚂𝚝𝚒𝚟𝚒 - 𝙱𝚘𝚝★'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
