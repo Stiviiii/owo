@@ -59,7 +59,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 - SE RECOMIENDA REESCANEAR EL CODIGO QR CADA 2 DIAS, PARA EVITAR PROBLEMAS O ERRORES
 ```
 
-## `EDITOR Y PORPIETARIO DEL BOT` 
+## `EDITOR Y PROPIETARIO DEL BOT` 
 [![Stiviiii](https://avatars.githubusercontent.com/u/104741559?v=4)](https://github.com/Stiviiii/) 
 
 `🧿 𝚂𝚃𝙸𝚅𝙸 𝙳𝙸𝚅𝙸 - 𝙱𝚘𝚝 🔮 __________ 𝙱𝚢: 𝚂𝚝𝚒𝚟𝚒 𝙳𝚒𝚟𝚒`
