@@ -1,4 +1,4 @@
-> #### 🚀 Versión actual: 1.1.5
+> #### 🚀 Versión actual: 1.1.7 
 
 <p align="center"> 
   <a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=GataBot-MD++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"
@@ -37,7 +37,7 @@
 )](https://chat.whatsapp.com/Hahc7UwSouH9jIDStkT5QW)  <a href="https://chat.whatsapp.com/Hahc7UwSouH9jIDStkT5QW"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
 
 [![blog](https://img.shields.io/badge/Grupo2-GataBot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
-)](https://chat.whatsapp.com/JFTOYLdpiTBCluFJvikBxN) <a href="https://chat.whatsapp.com/JFTOYLdpiTBCluFJvikBxN"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
+)](https://chat.whatsapp.com/J96jlutgGlr1gaKgafBj8b) <a href="https://chat.whatsapp.com/JFTOYLdpiTBCluFJvikBxN"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
 -----
 ### 💖 ```DONAR``` [`Aquí`](https://paypal.me/OficialGD)
 ### 🟣 ACTIVAR EN HEROKU 
