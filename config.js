@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰
 global.owner = [
-  ['5492235514566', 'Stivi-Bot 💖🐈', true],
+  ['5492235514566', '𝐒𝐭𝐢𝐯𝐢-𝐁𝐨𝐭 💖🐈', true],
   ['5492235671608']
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -68,8 +68,8 @@ global.APIKeys = { // APIKey Here
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '🐈 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = '🐈 𝐒𝐭𝐢𝐯𝐢-𝐁𝐨𝐭'
+global.author = ${username}
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -79,25 +79,16 @@ global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
 global.vs = '1.1.7'
 global.version = vs
 
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
+global.gt = '𝐒𝐭𝐢𝐯𝐢-𝐁𝐨𝐭'
 global.gatabot = gt
 
-global.yt = 'https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA'
-global.youtube = yt
+global.ig = 'https://www.instagram.com/nwnfi'
+global.stivibotig = ig
 
-global.ig = 'https://www.instagram.com/gata_dios'
-global.gatadiosig = ig
+global.md = 'https://github.com/Stiviiii/owo'
+global.stivibot = md
 
-global.md = 'https://github.com/GataNina-Li/GataBot-MD'
-global.gatabot = md
-
-global.nn = 'https://chat.whatsapp.com/Hahc7UwSouH9jIDStkT5QW'
-global.nngrupo = nn
-
-global.nnn = 'https://chat.whatsapp.com/J96jlutgGlr1gaKgafBj8b'
-global.nnngrupo = nnn
-
-global.paypal = 'https://paypal.me/OficialGD'
+global.paypal = 'https://paypal.me/StiviiD'
 global.donar = paypal
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
