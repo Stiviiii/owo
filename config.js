@@ -68,8 +68,8 @@ global.APIKeys = { // APIKey Here
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '🐈 𝐒𝐭𝐢𝐯𝐢-𝐁𝐨𝐭'
-global.author = ${username}
+global.packname = '𝐒𝐭𝐢𝐯𝐢-𝐁𝐨𝐭'
+global.author = '+5492235671608'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
