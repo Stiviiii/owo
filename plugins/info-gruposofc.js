@@ -1,37 +1,35 @@
-let media = './Menu2.jpg'
-let handler = async (m, { conn, command }) => conn.sendButton(m.chat, `
-*Hola 👋🏻, unete a los grupos oficiales para pasar un rato agradable usando el Bot o platicando con la familia de The Shadow Borkers - Bot*
+let media = './media/menus/Menuvid3.mp4'
+let handler = async (m, { conn, command }) => {
+let str = `
+💕 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝙊𝙎 𝙂𝙍𝙐𝙋𝙊𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎
 
-*➤ Grupos oficiales del Bot:*
-*1.-* https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ
+💞 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙏𝙃𝙀 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝙂𝙍𝙊𝙐𝙋𝙎
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+𝙏𝙚 𝙞𝙣𝙫𝙞𝙩𝙤 𝙖 𝙦𝙪𝙚 𝙩𝙚 𝙪𝙣𝙖𝙨 𝙖 𝙡𝙖 𝘾𝙤𝙢𝙪𝙣𝙞𝙙𝙖𝙙 𝙂𝙖𝙩𝙖𝘽𝙤𝙩. ✨ 𝙏𝙚𝙣 𝙪𝙣 𝙗𝙪𝙚𝙣 𝙢𝙤𝙢𝙚𝙣𝙩𝙤 𝙚 𝙞𝙣𝙩𝙚𝙧𝙖𝙘𝙘𝙞𝙤𝙣𝙖 𝙘𝙤𝙣 𝙉𝙤𝙨𝙤𝙩𝙧𝙤𝙨. 😸
 
-*2.-* https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs
+𝙄 𝙞𝙣𝙫𝙞𝙩𝙚 𝙮𝙤𝙪 𝙩𝙤 𝙟𝙤𝙞𝙣 𝙩𝙝𝙚 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮. 💫 𝙃𝙖𝙫𝙚 𝙖 𝙜𝙤𝙤𝙙 𝙩𝙞𝙢𝙚 𝙖𝙣𝙙 𝙞𝙣𝙩𝙚𝙧𝙖𝙘𝙩 𝙬𝙞𝙩𝙝 𝙪𝙨. 😼
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+𓃠 *Versión de ${gt}*
+➥ ${vs}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+✅ 𝙂𝙍𝙐𝙋𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 ${gt}
+🐈 *${nn}*\n
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+🐈 *${nnn}*\n
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+🐈 *https://chat.whatsapp.com/BlasuG7z02d16wEaCf61pa*\n
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+*Por favor, no ingresar con números de Bots, y mantener el respeto.*\n
+*Please, do not enter with Bot numbers, and maintain respect.*
+`.trim()
+  
+conn.sendHydrated(m.chat, str, wm, media, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
+['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentasgb'],
+['🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', '.donar'],
+['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
+], m,)}
 
-*3.-* https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F
+handler.command = /^linkgc|grupos|gruposgatabot|gatabotgrupos|gruposdegatabot|groupofc|gruposgb|grupogb|groupgb$/i
+handler.exp = 33
 
-*4.-* https://chat.whatsapp.com/CjexkGVr37J6GuSdDVAHzC
-
-*5.-* https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb
-
-*6.-* https://chat.whatsapp.com/GvrLSUSzVuT9P17CKfdxDa
-
-*7.-* https://chat.whatsapp.com/EpzuymKm6lG08k6J2Dwx7F
-
-*8.-* https://chat.whatsapp.com/IW12dLVoyWGHreGpX7rQIw
-
-*9.-* https://chat.whatsapp.com/Ef89aIuOLeD3Fa2sYmKwp7
-
-*10.-* https://chat.whatsapp.com/C2WYb1hiiijCI13QSUZLM9
-
-*11.-* https://chat.whatsapp.com/GKdDtQKWP5LCgpbzucz6kt
-
-*12.-* https://chat.whatsapp.com/DZA9djOzBn51ZpsCBj6aAg
-
-*13.-* https://chat.whatsapp.com/EIczvnvVZtTKRgxEbWtizv
-
-*14.-* https://chat.whatsapp.com/IR0NQSDFD6UBMT5q30QIFt
-
-*15.-* https://chat.whatsapp.com/CMd00ZYfwXZHEoEIswHpv3
-`.trim(), wm, media, [['𝙸𝚁 𝙰𝙻 𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '.menu']], m)
-handler.command = /^linkgc|grupos$/i
 export default handler

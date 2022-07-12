@@ -14,38 +14,62 @@ const groups = chats.filter(([id]) => id.endsWith('@g.us'))
 const used = process.memoryUsage()
 const { restrict } = global.db.data.settings[conn.user.jid] || {}
 const { autoread } = global.opts
+let pp = './media/menus/Menu1.jpg'
 let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
+
 let info = `
-╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
-╠
-╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *𝙱𝚛𝚞𝚗𝚘 𝚂𝚘𝚋𝚛𝚒𝚗𝚘*
-╠➥ [#️⃣] 𝙽𝙾° 𝙳𝙴𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *+52 1 999 209 5479*
-╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
-╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
-╠➥ [🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: *${groups.length}* 
-╠➥ [💡] 𝙲𝙷𝙰𝚃𝚂 𝚃𝙾𝚃𝙰𝙻𝙴𝚂: *${chats.length}* 
-╠➥ [🚀] 𝙰𝙲𝚃𝙸𝚅𝙸𝙳𝙰𝙳: *${uptime}*
-╠➥ [🎩] 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
-╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
-╠  *${speed}* 
-╠  *𝚖𝚒𝚕𝚒𝚜𝚎𝚐𝚞𝚗𝚍𝚘𝚜*
-╠➥ [☑️] 𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
-╠➥ [❗] 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
-╠
-╠═〘 𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭 〙 ═
-`.trim() 
-conn.reply(m.chat, info, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙸𝙽𝙵𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃',
-body: 'ᴛʜᴇ ᴍʏsᴛɪᴄ ﹣ ʙᴏᴛ',         
-previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
-sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}})
+╭━━━━[ ${gt} ]━━━━━⬣
+┃
+┃➥ *CREADORA | CREATOR*
+┃ღ *𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *CONTACTO | CONTACT* 
+┃ღ *${ig}*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃𓃠 *VERSIÓN ACTUAL | VERSION*
+┃ღ ${vs}
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *PREFIJO | PREFIX*
+┃ღ *${usedPrefix}*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
+┃ღ *${chats.length - groups.length}*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *CHATS DE GRUPOS | GROUP CHAT*
+┃ღ *${groups.length}* 
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *CHATS EN TOTAL | TOTAL CHATS*
+┃ღ *${chats.length}* 
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *ACTIVIDAD | ACTIVITY*
+┃ღ *${uptime}*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *USUARIOS | USERS*
+┃ღ *${totalreg}* 
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *VELOCIDAD | SPEED*
+┃ღ  *${speed}*
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *AUTOREAD*
+┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
+┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃➥ *RESTRICT* 
+┃ღ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
+┃
+╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 ]━━⬣`.trim()
+
+conn.sendHydrated(m.chat, info, wm, pp, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
+['𝙑𝙚𝙧 𝙂𝙧𝙪𝙥𝙤𝙨 | 𝙎𝙚𝙚 𝙂𝙧𝙤𝙪𝙥𝙨', '#grupolista'],
+['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨', '/cuentasgb'],
+['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '.menu']
+], m,)
+//conn.reply(m.chat, info, m)
 }
-handler.help = ['infobot', 'speed']
+handler.help = ['infobot']
 handler.tags = ['info', 'tools']
-handler.command = /^(ping|speed|infobot)$/i
+handler.command = /^(infobot|informacionbot|infogata|informacióngata|informaciongata)$/i
 export default handler
 
 function clockString(ms) {
